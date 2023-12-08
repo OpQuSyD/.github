@@ -5,7 +5,7 @@ TU Dresden University of Technology, 01062 Dresden, Germany)
 
 # Repositories
 
-### HOPS
+### [HOPS](https://github.com/OpQuSyD/hops)
 
 The Hierarchy of Pure States (HOPS) is a stochastic numerical method to rigorously solve 
 the full Schrödinger Equation for the system **and** its environment in a Monte-Carlo sense [1,2].
