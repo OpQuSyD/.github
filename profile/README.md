@@ -1,21 +1,21 @@
 # Open Quantum System Dynamics
 
-Reserch conducted by Prof. Walter T. Strunz (Institute of Theoretical Physics, 
+Research conducted by the group of Prof. Walter Strunz (Institute of Theoretical Physics, 
 TU Dresden University of Technology, 01062 Dresden, Germany)
 
 # Repositories
 
 ### HOPS
 
-The Hierarchy of Pure States (HOPS) is a numerical method to rigorously solve 
-the full Schrödinger Equation for the system **and** its environment [1,2].
+The Hierarchy of Pure States (HOPS) is a stochastic numerical method to rigorously solve 
+the full Schrödinger Equation for the system **and** its environment in a Monte-Carlo sense [1,2].
 It is based on the stochastic pure state formalism governed by the Non-Markovian 
-Quantum State Diffusion (NMQSD) equation [3] and inspired by HEOM [4], a density matrix 
-based approach for the same problem. 
-Opposing to many of the master equation techniques, no approximations on the 
+Quantum State Diffusion (NMQSD) equation [3], now reformulated in a hierarchical scheme
+(similar to HEOM [4], a density matrix based approach to the same problem). 
+In contrast to many "reduced" approaches (e.g. master equation techniques), no approximations on the 
 level of the global Hamiltonian are required.
-The method is claimed to exact in the sense, that numerical errors can, in principle
-be made arbitrarily small.
+The method is exact in the sense that numerical errors can be made arbitrarily small, 
+in a controlled way.
 Details of HOPS have been discussed in Ref. [2,5,6] 
  
 ### [StocProc](https://github.com/OpQuSyD/stocproc)
