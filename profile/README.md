@@ -18,7 +18,7 @@ The method is claimed to exact in the sense, that numerical errors can, in princ
 be made arbitrarily small.
 Details of HOPS have been discussed in Ref. [2,5,6] 
  
-### StocProc
+### [StocProc](https://github.com/OpQuSyD/stocproc)
 
 A utility to accurately sample complex-valued stationary Gaussian stochastic 
 processes continuously in time for a given auto-correlation-functions.     
